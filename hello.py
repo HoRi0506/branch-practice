@@ -1,4 +1,2 @@
-import requests as req
-
-def get_response() -> int:
-    return req.get('https://www.google.co.kr/').status_code
+for _ in range(10):
+    print('Hello, git!')
